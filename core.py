@@ -7,7 +7,7 @@ def mb_to_mo(mb):
     return mb / 1.024
 
 def main():
-    st.title("MO to MB and MB to MO Converter")
+    st.title("MO to MB and MB to MO Converter ;)")
     option = st.radio("Select conversion direction:", ("MO to MB", "MB to MO"))
 
     if option == "MO to MB":
